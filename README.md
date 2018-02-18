@@ -1,5 +1,3 @@
-# atom-jdk package
+# atom-jdk
 
-A short description of your package.
-
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+This package is yet a work in progress. It has not yet been published. Its purpose is to bring proper Java Development Kit to Atom (compiling, running, and a full Java console). If you'd like to have a general idea of how this will be, check my other repisotry "brackets-jdk". 
