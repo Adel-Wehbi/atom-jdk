@@ -1,0 +1,26 @@
+{
+    "menu": [
+        {
+            "label"     :   "Packages",
+            "submenu"   :   [
+                {
+                    "label"     :   "Atom JDK",
+                    "submenu"   :   [
+                        {
+                            "label"     :   "Build Project",
+                            "command"   :   "Atom-JDK:Build-Project"
+                        },
+                        {
+                            "label"     :   "Run Project",
+                            "command"   :   "Atom-JDK:Run-Project"
+                        },
+                        {
+                            "label"     :   "Build and Run Project",
+                            "command"   :   "Atom-JDK:Build-and-Run-Project"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

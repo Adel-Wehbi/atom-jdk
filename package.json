@@ -1,0 +1,22 @@
+{
+  "name": "atom-jdk",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Integration for Java Development Kit. Compiles and Runs. Includes its own Java Console.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+        "Atom-JDK:Build-Project",
+        "Atom-JDK:Run-Project",
+        "Atom-JDK:Build-and-Run-Project"
+    ]
+  },
+  "repository": "https://github.com/Adel-Wehbi/atom-jdk",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
