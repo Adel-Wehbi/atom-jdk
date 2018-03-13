@@ -1,8 +1,87 @@
-// The ui-variables file is provided by base themes provided by Atom.
-//
-// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
-// for a full listing of what's available.
 @import "ui-variables";
 
 .atom-jdk {
+    min-height: 100px;
+    .panel-divider{
+        height: 8px;
+        cursor: row-resize;
+        background-color: @base-border-color;
+    }
+
+    .panel-container{
+        height: ~"calc(100% - 8px)";
+
+        .topBar{
+            height: 30px;
+            padding: 8px;
+            padding-top: 0px;
+            background-color: @base-border-color;
+
+            .title{
+                // font-weight: bold;
+                font-size: 1.15em;
+                cursor: default;
+            }
+
+            .left{
+                float: left;
+            }
+
+            .right{
+                float: right;
+            }
+
+            a{
+                opacity: 0.6;
+                margin-right: 10px;
+                &:hover {
+                    opacity: 1;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .console{
+            overflow-y: auto;
+            padding: 10px;
+            padding-bottom: 0;
+            @fontSize: 1.2em;
+            height: ~"calc(100% - 38px)";
+
+            .console-content{
+                color: inherit;
+                background-color: inherit;
+                border: none;
+                display: inline;
+                padding: 0;
+                margin:  0;
+                font-size: @fontSize;
+            }
+
+            input{
+                opacity: 0;
+                width: 1px;
+                height: 1em;
+            }
+
+            .inputDisplay{
+                display: inline;
+                font-size: @fontSize;
+            }
+
+            .caret{
+                display: inline;
+                border-left: solid 0.47em;
+                border-color: inherit;
+                animation: blink 1s linear infinite;
+            }
+
+            @keyframes blink{
+                50%{
+                    opacity: 0;
+                }
+            }
+
+        }
+    }
 }
